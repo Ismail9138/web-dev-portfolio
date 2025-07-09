@@ -151,3 +151,64 @@ main section{
     padding-top: 30px;
     margin-bottom: 50px;
 }
+.section-title{
+    text-align: center;
+    color: #181818;
+    font-size: 35px;
+    font-weight: bold;
+}
+/* resume section */
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.resume-column-title{
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+}
+.experiensce-title{
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+}
+.exprience-sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+}
+.experience-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575 ;
+}
+button{
+    text-align: center;
+}
+.btn-primary{
+    text-align: center;
+}
+.resume-download-cv{
+    padding-top: 50px;
+}
+/* footer style */
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 130px;
+}
+.footer-column{
+    width: 50%;
+}
+footer input[type="text"] ,footer input[type="email"], footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+    font-size: 22px;
+
+ }
